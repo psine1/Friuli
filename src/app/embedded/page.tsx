@@ -1,0 +1,2 @@
+import { FriuliExplorer } from '@/features/friuli-explorer';
+export default function Embedded(){return <main style={{padding:24,background:'#f8f5ed',minHeight:'100vh'}}><h1 style={{fontFamily:'Georgia',fontWeight:400}}>Una ventana a Udine</h1><div style={{height:520,maxWidth:1050,margin:'24px auto'}}><FriuliExplorer initialPlaceId="piazza-liberta"/></div><p>La experiencia se adapta a esta sección de altura limitada.</p></main>}
